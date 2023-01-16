@@ -23,9 +23,9 @@ class PageLogin(PageBase):
     def cerrar_navegador(self):
         self.driver.close()
 
-    def logIn(self):
+    def logIn(self, user='standard_user', passwd='secret_sauce'):
         element = WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located((By.ID, PageLogin.TxtUserName)))
-        self.driver.find_element(By.ID, PageLogin.TxtUserName).send_keys("user")
-        self.driver.find_element(By.ID, PageLogin.TxtPassword).send_keys("passwd")
+        self.driver.find_element(By.ID, PageLogin.TxtUserName).send_keys(user)
+        self.driver.find_element(By.ID, PageLogin.TxtPassword).send_keys(passwd)
         self.driver.find_element(By.ID, PageLogin.BtnLogin).click()
         time.sleep(10)
