@@ -1,4 +1,7 @@
+import unittest
+
 from selenium import webdriver
+from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
@@ -24,3 +27,10 @@ class PageBase:
     @staticmethod
     def esperar_segundos(seconds):
         time.sleep(seconds)
+
+    def is_element_present(self, how, what):
+        try:
+            self.driver.find_element(by=how, value=what)
+        except NoSuchElementException as e:
+            return False
+        return True
