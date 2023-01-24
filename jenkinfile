@@ -1,0 +1,24 @@
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                git branch: 'pom', url: '/https://github.com/AbelAngelOk/DemoAutPy'
+                pip install virtualenv
+                python -m venv
+                source /venv/Scripts/activate
+                pip install -r requirements.txt
+            }
+        }
+        stage('Test') {
+            steps {
+                //
+            }
+        }
+        stage('Deploy') {
+            steps {
+                //
+            }
+        }
+    }
+}

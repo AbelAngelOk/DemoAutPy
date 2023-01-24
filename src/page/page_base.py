@@ -4,6 +4,7 @@ from selenium import webdriver
 from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
+from webdriver_manager.chrome import ChromeDriverManager
 
 # libreria correcta para time sleep
 import time
@@ -15,7 +16,8 @@ from selenium.webdriver.support import expected_conditions as EC
 class PageBase:
 
     def iniciar_ChromeDriver(self):
-        self.driver = webdriver.Chrome()
+        #self.driver = webdriver.Chrome()
+        self.driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
         self.driver.implicitly_wait(10)
         return self.driver
 
