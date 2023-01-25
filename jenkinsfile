@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('enviroment build') {
+            steps {
+                script {
+                    sh "EJECUTANDO..."
+		    sh "python --version"
+                }
+            }
+        }
+        stage('docker push') {
+            steps {
+                script {
+                    sh ""
+                }
+            }
+        }
+    }
+}
