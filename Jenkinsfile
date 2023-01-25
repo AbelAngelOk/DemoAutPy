@@ -1,5 +1,10 @@
 pipeline {
-  agent none
+  agent {
+    node {
+      label 'windows-slave'
+    }
+
+  }
   stages {
     stage('init') {
       steps {
