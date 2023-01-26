@@ -28,7 +28,7 @@ cd "./src/test"
 ```
 2- ejecutamos python con el directorio en donde se generá el reporte
 ```
-python -m pytest test_login.py --alluredir "..\allure-results\demo"
+python -m pytest test_login.py --alluredir "..\allure-results\demo26a"
 ```
 
 Para visualizar el reporte deberas ejecutar 

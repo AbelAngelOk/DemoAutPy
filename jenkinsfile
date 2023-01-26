@@ -1,22 +1,43 @@
 pipeline {
     agent any
 
+    environment {
+        ENV_NAME = 'venv'
+    }
     stages {
         stage('enviroment build') {
             steps {
                 script {
-                    sh "EJECUTANDO..."
-		    sh "python --version"
-		    sh cd "$(mktemp -d)"
+                    sh 'Step 1: activar interpreter'
+                    sh 'Precondición: Tener interpreter creado'
+                    sh 'cd ${ENV_NAME}/Scripts'
+                    sh 'activate.bat'
+		            sh "python --version"
+                }
+            }
+            steps {
+                script {
+                    sh 'Step 2: volver a main'
+                    sh 'cd..'
+                    sh 'cd..'
+                    sh '%cd%'
                 }
             }
         }
-        stage('docker push') {
+        stage('test') {
             steps {
                 script {
-                    sh ""
+                    sh 'Step 3: Ejecutar Tests'
+                    sh 'cd %cd%/src/test'
+                    sh 'pytest'
                 }
             }
+                script {
+                    sh 'Step 2: volver a main'
+                    sh 'cd..'
+                    sh 'cd..'
+                    sh '%cd%'
+                }
         }
     }
 }
