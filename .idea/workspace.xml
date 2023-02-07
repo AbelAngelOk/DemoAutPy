@@ -6,10 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="87d36c6d-507d-45d3-85ea-980787ddab3a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitignore.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkinsfile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/allure-results/demo/11ee39c1-1398-43c7-a23e-e3737e3faae3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/allure-results/demo/791bf264-8d98-453c-97e7-90491fdb96e6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/allure-results/demo/9d6d26b8-168b-4ada-bc5c-48f872fee534-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/allure-results/demo/d8880b7d-db17-4bd2-9013-56478a67494d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/allure-results/demo/eac7b5a6-8b83-4f02-8067-8a6e20fb3d35-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/allure-results/demo26a/3c852046-570e-4971-bfcc-77a65154b94d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/allure-results/demo26a/647ca02a-80dd-41fe-bd59-1864e90b45ac-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/allure-results/demo26a/90c24eeb-2f3a-4759-832b-ff0bf862265b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/allure-results/demo26a/bf56b8f5-2cd7-4293-bc80-5547c1c6f902-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/allure-results/demo26a/c2f2e3c9-26f6-4226-b9f5-45f4a609163a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/allure-results/demo26a/f2c1ba82-c43d-4183-8830-0a7cea3a24d5-result.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

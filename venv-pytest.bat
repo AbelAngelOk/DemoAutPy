@@ -1,7 +1,5 @@
 @echo off
 
-REM Activar el entorno virtual
-call %cd%\venv\Scripts\activate.bat
-
-REM Ejecutar el proyecto
-python -m pytest
+01CrearCarpeta.bat
+02CrearRporte.bat
+03EliminarCarpeta.bat
