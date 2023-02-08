@@ -1,2 +1,2 @@
-rmdir /q /s results
-cd ../..
+rm /q /s results
+rm results
