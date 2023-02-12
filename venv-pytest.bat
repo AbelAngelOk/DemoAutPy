@@ -1,5 +1,12 @@
 @echo off
 
-01CrearCarpeta.bat
-02CrearRporte.bat
-03EliminarCarpeta.bat
+REM Precondicion: tener entorno virtual llamado venv
+REM Precondicion: tener instalado modulos de requirements.txt
+
+REM Observacion: el comando para activar el entorno virtual solo funcion desde el pipeline.
+
+REM Activar el entorno virtual
+call %cd%\venv\Scripts\activate.bat
+
+REM Ejecutar el proyecto con pytest
+REM python -m pytest 

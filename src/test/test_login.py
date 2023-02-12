@@ -1,13 +1,12 @@
 import unittest
 import allure
-import pytest
 
 from src.page.page_login import PageLogin
 from src.page.page_base import PageBase
 
-@allure.feature("Login")
+@allure.feature("Feature Login")
 @allure.story("Iniciamos sesión con distintos tipos de usuarios")
-@allure.suite("Login")
+@allure.suite("Suite Login")
 @allure.severity(allure.severity_level.CRITICAL)
 @allure.description("Descripción")
 class test_Login_01(unittest.TestCase):

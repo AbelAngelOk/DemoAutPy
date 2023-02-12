@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87d36c6d-507d-45d3-85ea-980787ddab3a" name="Changes" comment="" />
+    <list default="true" id="87d36c6d-507d-45d3-85ea-980787ddab3a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01CrearCarpeta.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02CrearReporte.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03EliminarCarpeta.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv-pytest.bat" beforeDir="false" afterPath="$PROJECT_DIR$/venv-pytest.bat" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
