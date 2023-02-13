@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87d36c6d-507d-45d3-85ea-980787ddab3a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/DemoAutPy.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv-pytest-allure.bat" beforeDir="false" afterPath="$PROJECT_DIR$/venv-pytest-allure.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv-pytest.bat" beforeDir="false" afterPath="$PROJECT_DIR$/venv-pytest.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
-    </list>
+    <list default="true" id="87d36c6d-507d-45d3-85ea-980787ddab3a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
