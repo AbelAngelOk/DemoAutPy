@@ -35,7 +35,7 @@ Tambien se puede obtar por ejecutarlo desde los .bat que se especificaran mas ad
 
 ### Ejecutar toda la bateria desde index.py
 
-Ingresar al archivo index.py dentro de la carpeta test y ejecutar el __main__ del archivo.
+Ingresar al archivo index.py dentro de la carpeta __test__ y ejecutar el __main__ del archivo.
 
 ### Ejecutar desde consola con unittest
 Para ejecutar toda la bateria de pruebas abrir el CMD en el directorio del proyecto y luego ingresar el comando
@@ -56,7 +56,7 @@ cd src/test
 python -m pytest
 cd ../..
 ```
-Como atajo se creó el archivo venv-pytest.bat el cual activa el entorno virtual y ejecuta las pruebas.
+Como atajo se creó el archivo __venv-pytest.bat__ el cual activa el entorno virtual y ejecuta las pruebas.
 
 ### Ejecutar desde consola y generar un reporte con allure-pytest
 
@@ -70,7 +70,7 @@ py.test --alluredir=results
 allure serve "%cd%\results"
 ```
 Como post condicion es recomendable eliminar la carpeta para volver a utilizar.
-Como atajo se puede ejecutar el archivo venv-pytest-allure.bat
+Como atajo se puede ejecutar el archivo __venv-pytest-allure.bat__
 
 ### Ejecutar desde consola y generar un reporte de excel
 
@@ -78,17 +78,17 @@ Para ejecutar el proyecto y generar archivo excel se debera utilizar el comando
 ```
 py.test --excelreport=report.xls
 ```
-Como atajo se puede ejecutar el archivo venv-pytest-xls.bat
+Como atajo se puede ejecutar el archivo __venv-pytest-xls.bat__
 
 ## Sobre los .Bat
 
 Actualmente el proyecto cuenta con algunos .bat para facilitar las tareas
-- Create-requirements.bat crea el archivo requirements.bat este archivo devuelve una lista de los modulos instalados en el entorno virtual venv.
-- Create-venv.bat crea el entorno virtual con el nombre de venv.
-- Install.requirements.bat busca el archivo requirements.bat e instala la lista de modulos que contiene.
-- Venv-pytest.bat ejecuta toda la bateria de pruebas desde pytest
-- Venv-pytest-allure.bat ejecuta toda la bateria de pruebas y genera un reporte en allure.
-- Venv-pytest-xls.bat ejecuta toda la bateria de pruebas y genera un reporte en un excel results.xls 
+- __Create-requirements.bat__ crea el archivo requirements.bat este archivo devuelve una lista de los modulos instalados en el entorno virtual venv.
+- __Create-venv.bat__ crea el entorno virtual con el nombre de venv.
+- __Install-requirements.bat__ busca el archivo requirements.bat e instala la lista de modulos que contiene.
+- __Venv-pytest.bat__ ejecuta toda la bateria de pruebas desde pytest
+- __Venv-pytest-allure.bat__ ejecuta toda la bateria de pruebas y genera un reporte en allure.
+- __Venv-pytest-xls.bat__ ejecuta toda la bateria de pruebas y genera un reporte en un excel results.xls 
 
 ### Modo de uso y utilidades
 - Al hacer doble click sobre un excel se ejecutarán los comandos emulando el comportamiento manual en el cmd.
