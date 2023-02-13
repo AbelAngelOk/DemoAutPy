@@ -9,4 +9,4 @@ REM Activar el entorno virtual
 call %cd%\venv\Scripts\activate.bat
 
 REM Ejecutar el proyecto con pytest
-REM python -m pytest 
+python -m pytest

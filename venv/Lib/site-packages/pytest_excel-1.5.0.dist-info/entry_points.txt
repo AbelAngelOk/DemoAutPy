@@ -1,0 +1,2 @@
+[pytest11]
+excel = pytest_excel.pytest_excel

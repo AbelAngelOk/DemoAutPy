@@ -19,7 +19,7 @@ REM Ejecutar proyecto con allure-pytest 2.12.0
 py.test --alluredir=results
 
 REM ver proyecto
-python serve "%cd%\results"
+allure serve "%cd%\results"
 
 REM eliminar carpeta con archivos
 rm /q /s results
